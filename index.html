@@ -1,493 +1,474 @@
-{\rtf1\ansi\ansicpg950\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red255\green255\blue254;\red251\green0\blue7;
-\red0\green0\blue0;\red42\green42\blue42;\red107\green0\blue1;\red0\green0\blue255;\red15\green112\blue1;
-\red144\green1\blue18;\red9\green60\blue148;\red19\green118\blue70;\red14\green110\blue109;}
-{\*\expandedcolortbl;;\cssrgb\c50196\c50196\c50196;\cssrgb\c100000\c100000\c99608;\cssrgb\c100000\c0\c0;
-\cssrgb\c0\c0\c0;\cssrgb\c21961\c21961\c21961;\cssrgb\c50196\c0\c0;\cssrgb\c0\c0\c100000;\cssrgb\c0\c50196\c0;
-\cssrgb\c63922\c8235\c8235;\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;\cssrgb\c0\c50196\c50196;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoungHo & ChiaHui 的婚禮邀請函</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+TC:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        morandi: {
+                            warm: '#d4a373',
+                            warmDark: '#b88655',
+                            sage: '#8da399',
+                            sageLight: '#eef2f0',
+                            cream: '#fcfaf7',
+                            sand: '#f5efe6',
+                            charcoal: '#333333'
+                        }
+                    },
+                    fontFamily: {
+                        cormorant: ['"Cormorant Garamond"', 'serif'],
+                        noto: ['"Noto Serif TC"', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Noto Serif TC', serif;
+            background-color: #fcfaf7;
+            color: #333333;
+        }
+        .font-english {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .no-wrap {
+            white-space: nowrap;
+        }
+        /* Glassmorphic Navbar */
+        .glass-nav {
+            background: rgba(253, 250, 247, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(212, 163, 115, 0.2);
+        }
+        /* Soft Shadow Glass Card for Countdown */
+        .white-shimmer-card {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 10px 30px -5px rgba(212, 163, 115, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+        }
+        /* Accordion transition */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s ease-out, opacity 0.25s ease-out;
+            opacity: 0;
+        }
+        .accordion-content.open {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-morandi-cream text-morandi-charcoal antialiased">
 
-\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf0 \cb1 \strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf6 \cb3 \strokec6 <\cf7 \strokec7 html\cf0 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf8 \strokec8 "zh-TW"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "scroll-smooth"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cf6 \cb3 \strokec6 <\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf0 \cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf8 \strokec8 "UTF-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "viewport"\cf0 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf8 \strokec8 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \strokec5 YoungHo & ChiaHui \uc0\u30340 \u23130 \u31150 \u36992 \u35531 \u20989 \cf6 \strokec6 </\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf9 \strokec9 <!-- Google Fonts -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "preconnect"\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "preconnect"\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.gstatic.com"\cf0 \strokec5  \cf4 \strokec4 crossorigin\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+TC:wght@300;400;600;700&display=swap"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf9 \strokec9 <!-- FontAwesome Icons -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf9 \strokec9 <!-- Tailwind CSS -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         tailwind.config = \{\cb1 \
-\cb3             theme: \{\cb1 \
-\cb3                 extend: \{\cb1 \
-\cb3                     colors: \{\cb1 \
-\cb3                         morandi: \{\cb1 \
-\cb3                             warm: \cf10 \strokec10 '#d4a373'\cf0 \strokec5 ,\cb1 \
-\cb3                             warmDark: \cf10 \strokec10 '#b88655'\cf0 \strokec5 ,\cb1 \
-\cb3                             sage: \cf10 \strokec10 '#8da399'\cf0 \strokec5 ,\cb1 \
-\cb3                             sageLight: \cf10 \strokec10 '#eef2f0'\cf0 \strokec5 ,\cb1 \
-\cb3                             cream: \cf10 \strokec10 '#fcfaf7'\cf0 \strokec5 ,\cb1 \
-\cb3                             sand: \cf10 \strokec10 '#f5efe6'\cf0 \strokec5 ,\cb1 \
-\cb3                             charcoal: \cf10 \strokec10 '#333333'\cf0 \cb1 \strokec5 \
-\cb3                         \}\cb1 \
-\cb3                     \},\cb1 \
-\cb3                     fontFamily: \{\cb1 \
-\cb3                         cormorant: [\cf10 \strokec10 '"Cormorant Garamond"'\cf0 \strokec5 , \cf10 \strokec10 'serif'\cf0 \strokec5 ],\cb1 \
-\cb3                         noto: [\cf10 \strokec10 '"Noto Serif TC"'\cf0 \strokec5 , \cf10 \strokec10 'serif'\cf0 \strokec5 ]\cb1 \
-\cb3                     \}\cb1 \
-\cb3                 \}\cb1 \
-\cb3             \}\cb1 \
-\cb3         \}\cb1 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf7 \strokec7 body\cf0 \strokec5  \{\cb1 \
-\cb3             \cf4 \strokec4 font-family:\cf0 \strokec5  \cf10 \strokec10 'Noto Serif TC'\cf0 \strokec5 , \cf11 \strokec11 serif\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf11 \strokec11 #fcfaf7\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 color:\cf0 \strokec5  \cf11 \strokec11 #333333\cf0 \strokec5 ;\cb1 \
-\cb3         \}\cb1 \
-\cb3         \cf7 \strokec7 .font-english\cf0 \strokec5  \{\cb1 \
-\cb3             \cf4 \strokec4 font-family:\cf0 \strokec5  \cf10 \strokec10 'Cormorant Garamond'\cf0 \strokec5 , \cf11 \strokec11 serif\cf0 \strokec5 ;\cb1 \
-\cb3         \}\cb1 \
-\cb3         \cf7 \strokec7 .no-wrap\cf0 \strokec5  \{\cb1 \
-\cb3             \cf4 \strokec4 white-space:\cf0 \strokec5  \cf11 \strokec11 nowrap\cf0 \strokec5 ;\cb1 \
-\cb3         \}\cb1 \
-\cb3         \cf9 \strokec9 /* Glassmorphic Navbar */\cf0 \cb1 \strokec5 \
-\cb3         \cf7 \strokec7 .glass-nav\cf0 \strokec5  \{\cb1 \
-\cb3             \cf4 \strokec4 background:\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 253\cf0 \strokec5 , \cf12 \strokec12 250\cf0 \strokec5 , \cf12 \strokec12 247\cf0 \strokec5 , \cf12 \strokec12 0.85\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 backdrop-filter:\cf0 \strokec5  \cf11 \strokec11 blur(\cf12 \strokec12 12px\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 -webkit-backdrop-filter:\cf0 \strokec5  \cf11 \strokec11 blur(\cf12 \strokec12 12px\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 border-bottom:\cf0 \strokec5  \cf12 \strokec12 1px\cf0 \strokec5  \cf11 \strokec11 solid\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 212\cf0 \strokec5 , \cf12 \strokec12 163\cf0 \strokec5 , \cf12 \strokec12 115\cf0 \strokec5 , \cf12 \strokec12 0.2\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
-\cb3         \}\cb1 \
-\cb3         \cf9 \strokec9 /* Soft Shadow Glass Card for Countdown */\cf0 \cb1 \strokec5 \
-\cb3         \cf7 \strokec7 .white-shimmer-card\cf0 \strokec5  \{\cb1 \
-\cb3             \cf4 \strokec4 background:\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 255\cf0 \strokec5 , \cf12 \strokec12 255\cf0 \strokec5 , \cf12 \strokec12 255\cf0 \strokec5 , \cf12 \strokec12 0.95\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 box-shadow:\cf0 \strokec5  \cf12 \strokec12 0\cf0 \strokec5  \cf12 \strokec12 10px\cf0 \strokec5  \cf12 \strokec12 30px\cf0 \strokec5  \cf12 \strokec12 -5px\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 212\cf0 \strokec5 , \cf12 \strokec12 163\cf0 \strokec5 , \cf12 \strokec12 115\cf0 \strokec5 , \cf12 \strokec12 0.15\cf11 \strokec11 )\cf0 \strokec5 , \cf12 \strokec12 0\cf0 \strokec5  \cf12 \strokec12 4px\cf0 \strokec5  \cf12 \strokec12 6px\cf0 \strokec5  \cf12 \strokec12 -2px\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 0\cf0 \strokec5 , \cf12 \strokec12 0\cf0 \strokec5 , \cf12 \strokec12 0\cf0 \strokec5 , \cf12 \strokec12 0.03\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 border:\cf0 \strokec5  \cf12 \strokec12 1px\cf0 \strokec5  \cf11 \strokec11 solid\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 255\cf0 \strokec5 , \cf12 \strokec12 255\cf0 \strokec5 , \cf12 \strokec12 255\cf0 \strokec5 , \cf12 \strokec12 0.8\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 backdrop-filter:\cf0 \strokec5  \cf11 \strokec11 blur(\cf12 \strokec12 8px\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
-\cb3         \}\cb1 \
-\cb3         \cf9 \strokec9 /* Accordion transition */\cf0 \cb1 \strokec5 \
-\cb3         \cf7 \strokec7 .accordion-content\cf0 \strokec5  \{\cb1 \
-\cb3             \cf4 \strokec4 max-height:\cf0 \strokec5  \cf12 \strokec12 0\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 overflow:\cf0 \strokec5  \cf11 \strokec11 hidden\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 transition:\cf0 \strokec5  \cf11 \strokec11 max-height\cf0 \strokec5  \cf12 \strokec12 0.35s\cf0 \strokec5  \cf11 \strokec11 ease-out\cf0 \strokec5 , \cf11 \strokec11 opacity\cf0 \strokec5  \cf12 \strokec12 0.25s\cf0 \strokec5  \cf11 \strokec11 ease-out\cf0 \strokec5 ;\cb1 \
-\cb3             \cf4 \strokec4 opacity:\cf0 \strokec5  \cf12 \strokec12 0\cf0 \strokec5 ;\cb1 \
-\cb3         \}\cb1 \
-\cb3         \cf7 \strokec7 .accordion-content.open\cf0 \strokec5  \{\cb1 \
-\cb3             \cf4 \strokec4 opacity:\cf0 \strokec5  \cf12 \strokec12 1\cf0 \strokec5 ;\cb1 \
-\cb3         \}\cb1 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf6 \cb3 \strokec6 </\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cf6 \cb3 \strokec6 <\cf7 \strokec7 body\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-morandi-cream text-morandi-charcoal antialiased"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\pard\pardeftab720\partightenfactor0
-\cf0 \cb3     \cf9 \strokec9 <!-- \uc0\u22266 \u23450 \u27611 \u29627 \u29827 \u23566 \u35261 \u21015  -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 nav\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center justify-between h-16"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- Brand Logo -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english font-bold text-xl sm:text-2xl text-morandi-warm tracking-widest no-wrap"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     Y & C\cb1 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- Nav Links -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex space-x-4 sm:space-x-8 text-xs sm:text-sm font-medium tracking-widest"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#about"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-700 hover:text-morandi-warm transition duration-200"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u38364 \u26044 \u25105 \u20497 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#details"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-700 hover:text-morandi-warm transition duration-200"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u23130 \u31150 \u35443 \u24773 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#attend-form"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-700 hover:text-morandi-warm transition duration-200"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u20986 \u24109 \u22238 \u20989 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 nav\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- \uc0\u39318 \u38913 \u20840 \u34722 \u24149 \u23553 \u38754 \u32972 \u26223  -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "relative h-screen flex items-end sm:items-center justify-center overflow-hidden pb-16 sm:pb-0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf9 \strokec9 <!-- Background Image with Soft Overlay -->\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute inset-0 z-0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 img\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://i.postimg.cc/X7zc76xq/IMG-9121.jpg"\cf0 \strokec5  \cf4 \strokec4 alt\cf6 \strokec6 =\cf8 \strokec8 "YoungHo & ChiaHui"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full h-full object-cover object-top scale-105 transform transition duration-1000"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-black/30"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3         \cf9 \strokec9 <!-- Hero Content (\uc0\u20301 \u32622 \u32147 \u35519 \u25972 \u65292 \u36991 \u20813 \u36974 \u25803 \u20154 \u33225 ) -->\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "relative z-10 text-center text-white px-4 max-w-3xl mx-auto space-y-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-lg sm:text-2xl md:text-3xl tracking-widest uppercase italic opacity-90 font-light"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 Our Wedding Day\cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 h1\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-3xl sm:text-5xl md:text-6xl font-semibold tracking-wider my-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 YoungHo \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-light italic text-morandi-warm"\cf6 \strokec6 >\cf0 \strokec5 &\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5  ChiaHui\cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 h1\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-0.5 bg-morandi-warm mx-auto my-2"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-base sm:text-xl md:text-2xl tracking-wider font-light italic opacity-95"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 "We love because God first loved us."\cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-noto text-xs sm:text-sm tracking-widest pt-1 opacity-80 no-wrap"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 2027 . 05 . 22 \uc0\u20845  | \u21320 \u23476  11:30 \u20837 \u24109 \cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf9 \strokec9 <!-- \uc0\u35264 \u30475 \u23130 \u31150 \u36039 \u35338 \u25353 \u37397  -->\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "pt-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#details"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "inline-block bg-white/20 hover:bg-white/30 text-white backdrop-blur-md border border-white/40 text-xs sm:text-sm px-6 py-2.5 rounded-full tracking-widest transition duration-300 transform hover:scale-105 shadow-lg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \uc0\u35264 \u30475 \u23130 \u31150 \u36039 \u35338 \cb1 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3         \cf9 \strokec9 <!-- Scroll Down Indicator -->\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute bottom-4 z-10 left-1/2 transform -translate-x-1/2 text-white/70 animate-bounce"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-chevron-down text-base sm:text-lg"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- \uc0\u34269 \u34899 \u20498 \u25976 \u35336 \u26178 \u22120  (\u30333 \u33394 \u24494 \u20809 \u21345 \u29255 ) -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-16 sm:py-20 px-4 bg-morandi-sand/40"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-4xl mx-auto text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-2xl sm:text-3xl text-morandi-warm uppercase tracking-widest mb-2"\cf6 \strokec6 >\cf0 \strokec5 Countdown\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs sm:text-sm text-gray-500 tracking-widest mb-10"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u20498 \u25976 \u38506 \u20276 \u25105 \u20497 \u36814 \u21521 \u24184 \u31119 \u26178 \u21051 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cb1 \
-\cb3             \cf9 \strokec9 <!-- Countdown Grid -->\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-4 gap-2 sm:gap-6 max-w-2xl mx-auto"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "countdown"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- Days -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "white-shimmer-card rounded-2xl p-3 sm:p-6 flex flex-col items-center justify-center relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "days"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-2xl sm:text-5xl font-semibold text-morandi-warm tracking-tight"\cf6 \strokec6 >\cf0 \strokec5 00\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mt-1"\cf6 \strokec6 >\cf0 \strokec5 Days\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden sm:block absolute right-0 top-1/2 transform -translate-y-1/2 w-px h-8 bg-gray-200"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- Hours -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "white-shimmer-card rounded-2xl p-3 sm:p-6 flex flex-col items-center justify-center relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "hours"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-2xl sm:text-5xl font-semibold text-morandi-warm tracking-tight"\cf6 \strokec6 >\cf0 \strokec5 00\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mt-1"\cf6 \strokec6 >\cf0 \strokec5 Hours\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden sm:block absolute right-0 top-1/2 transform -translate-y-1/2 w-px h-8 bg-gray-200"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- Minutes -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "white-shimmer-card rounded-2xl p-3 sm:p-6 flex flex-col items-center justify-center relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "minutes"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-2xl sm:text-5xl font-semibold text-morandi-warm tracking-tight"\cf6 \strokec6 >\cf0 \strokec5 00\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mt-1"\cf6 \strokec6 >\cf0 \strokec5 Mins\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden sm:block absolute right-0 top-1/2 transform -translate-y-1/2 w-px h-8 bg-gray-200"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- Seconds -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "white-shimmer-card rounded-2xl p-3 sm:p-6 flex flex-col items-center justify-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "seconds"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-2xl sm:text-5xl font-semibold text-morandi-warm tracking-tight"\cf6 \strokec6 >\cf0 \strokec5 00\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mt-1"\cf6 \strokec6 >\cf0 \strokec5 Secs\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- \uc0\u38364 \u26044 \u25105 \u20497  -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "about"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-20 px-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-3xl mx-auto text-center space-y-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "inline-block px-3 py-1 bg-morandi-sageLight text-morandi-sage text-xs tracking-widest rounded-full uppercase"\cf6 \strokec6 >\cf0 \strokec5 About Us\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-3xl sm:text-4xl text-morandi-warm tracking-wider"\cf6 \strokec6 >\cf0 \strokec5 YoungHo & ChiaHui\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-0.5 bg-morandi-warm/40 mx-auto"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm sm:text-base text-gray-600 leading-relaxed font-light px-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \uc0\u22240 \u28858 \u24859 \u65292 \u35731 \u25105 \u20497 \u36935 \u35211 \u20102 \u24444 \u27492 \u55357 \u56471 \cf6 \strokec6 <\cf7 \strokec7 br\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \uc0\u22240 \u28858 \u31070 \u30340 \u24859 \u65292 \u35731 \u25105 \u20497 \u25026 \u24471 \u22914 \u20309 \u29992 \u24515 \u21435 \u21621 \u35703 \u36889 \u20221 \u24863 \u24773 \u12290 \cf6 \strokec6 <\cf7 \strokec7 br\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \uc0\u35488 \u25711 \u36992 \u35531 \u24744 \u20358 \u21040 \u25105 \u20497 \u30340 \u23130 \u31150 \u33287 \u25105 \u20497 \u19968 \u21516 \u20998 \u20139 \u21916 \u24709 \u33287 \u31070 \u30340 \u24681 \u20856 \u65292 \cf6 \strokec6 <\cf7 \strokec7 br\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \uc0\u19968 \u36215 \u20358 \u35211 \u35657 \u25105 \u20497 \u30340 \u24184 \u31119 \u26178 \u21051 \u65281 \cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- \uc0\u23130 \u31150 \u35443 \u24773  (\u22402 \u30452  V-Card \u35373 \u35336 ) -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "details"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-16 px-4 bg-morandi-sand/30"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-2xl mx-auto space-y-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center space-y-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-sage tracking-widest uppercase"\cf6 \strokec6 >\cf0 \strokec5 Wedding Details\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl sm:text-3xl text-morandi-charcoal font-medium tracking-wide"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u23130 \u31150 \u36039 \u35338 \u33287 \u20132 \u36890 \u25351 \u21335 \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3             \cf9 \strokec9 <!-- V-Card \uc0\u36039 \u35338 \u20027 \u39636  -->\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-white/60 space-y-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf9 \strokec9 <!-- \uc0\u26178 \u38291 \u36039 \u35338  -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-start space-x-4 border-b border-gray-100 pb-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12 rounded-2xl bg-morandi-sageLight flex items-center justify-center text-morandi-sage shrink-0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-regular fa-clock text-xl"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg font-medium text-morandi-warm mb-1"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u23130 \u31150 \u26178 \u38291  Time\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-800 text-sm sm:text-base font-semibold no-wrap"\cf6 \strokec6 >\cf0 \strokec5 2027 \uc0\u24180  5 \u26376  22 \u26085  \u26143 \u26399 \u20845 \u12304 \u21320 \u23476 \u12305 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-600 text-xs sm:text-sm mt-1 no-wrap"\cf6 \strokec6 >\cf0 \strokec5 11:30 \uc0\u20837 \u24109  | 12:00 \u28310 \u26178 \u38283 \u24109 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- \uc0\u22320 \u40670 \u36039 \u35338  -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-start space-x-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12 rounded-2xl bg-morandi-sageLight flex items-center justify-center text-morandi-sage shrink-0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-location-dot text-xl"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg font-medium text-morandi-warm mb-1"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u23130 \u31150 \u22320 \u40670  Location\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-800 text-sm sm:text-base font-semibold no-wrap"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u33457 \u34030 \u27704 \u35920 \u27963 \u28023 \u39854 \u39184 \u24307 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-gray-500 text-xs sm:text-sm mt-1 no-wrap"\cf6 \strokec6 >\cf0 \strokec5  973\uc0\u33457 \u34030 \u32291 \u21513 \u23433 \u37129 \u21213 \u23433 \u26449 \u20013 \u21407 \u36335 \u19968 \u27573 271\u34399 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mt-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://maps.google.com/?q=\uc0\u33457 \u34030 \u27704 \u35920 \u28023 \u39854 \u39184 \u24307 "\cf0 \strokec5  \cf4 \strokec4 target\cf6 \strokec6 =\cf8 \strokec8 "_blank"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "noopener noreferrer"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "inline-flex items-center text-xs text-morandi-warm hover:text-morandi-warmDark underline font-medium space-x-1 no-wrap"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 \uc0\u38283 \u21855  Google Map \u23566 \u33322 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-arrow-up-right-from-square text-[10px]"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3             \cf9 \strokec9 <!-- \uc0\u20132 \u36890 \u25351 \u24341  (\u25722 \u30090 \u24335 \u38754 \u26495  Accordion) -->\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white rounded-3xl shadow-lg border border-white/60 overflow-hidden"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "toggleAccordion('traffic-accordion')"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-6 py-5 flex items-center justify-between text-left hover:bg-gray-50/80 transition duration-200"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center space-x-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-bus text-morandi-sage text-lg"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-medium text-gray-800 text-sm sm:text-base no-wrap"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u35443 \u32048 \u20132 \u36890 \u25351 \u24341 \u36039 \u35338  (\u40670 \u25802 \u23637 \u38283 )\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "accordion-arrow"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-chevron-down text-gray-400 transition-transform duration-300"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "traffic-accordion"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "accordion-content px-6 border-t border-gray-100 bg-gray-50/50"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-6 space-y-4 text-xs sm:text-sm text-gray-600 leading-relaxed"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-semibold text-morandi-warm mb-1 flex items-center space-x-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-train"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "no-wrap"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u12304 \u21488 \u37941 \u28779 \u36554 \u12305 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "pl-5"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u25645 \u20056 \u21488 \u37941 \u33267  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "no-wrap font-medium text-gray-800"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u33457 \u34030 \u28779 \u36554 \u32317 \u31449 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5  \uc0\u19979 \u36554 \u65292 \u20986 \u31449 \u24460 \u36681 \u20056 \u35336 \u31243 \u36554 \u32004  8-10 \u20998 \u37912 \u21363 \u21487 \u25269 \u36948  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "no-wrap font-medium text-gray-800"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u33457 \u34030 \u27704 \u35920 \u27963 \u28023 \u39854 \u39184 \u24307 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 \uc0\u12290 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-semibold text-morandi-warm mb-1 flex items-center space-x-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-car"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "no-wrap"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u12304 \u33258 \u34892 \u38283 \u36554 \u12305 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "pl-5"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u23566 \u33322 \u35373 \u23450 \u33267  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "no-wrap font-medium text-gray-800"\cf6 \strokec6 >\cf0 \strokec5  973\uc0\u33457 \u34030 \u32291 \u21513 \u23433 \u37129 \u21213 \u23433 \u26449 \u20013 \u21407 \u36335 \u19968 \u27573 271\u34399 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 \uc0\u12290 \u39184 \u24307 \u26049 \u25110 \u38468 \u36817 \u35373 \u26377 \u30456 \u38364 \u20572 \u36554 \u31354 \u38291 \u12290 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- \uc0\u20986 \u24109 \u22238 \u20989 \u34920 \u21934 \u21312 \u22602  -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "attend-form"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-20 px-4 bg-white"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-2xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center space-y-2 mb-10"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-sage tracking-widest uppercase"\cf6 \strokec6 >\cf0 \strokec5 Response Form\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl sm:text-3xl text-morandi-charcoal font-medium tracking-wide"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u20986 \u24109 \u22238 \u20989 \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs sm:text-sm text-gray-500 pt-1"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u28858 \u20102 \u35731 \u25105 \u20497 \u20570 \u22909 \u26368 \u23436 \u21892 \u30340 \u28310 \u20633 \u65292 \u35531 \u26044  2027 \u24180  3 \u26376  30 \u26085 \u21069 \u21332 \u21161 \u22635 \u23531 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3             \cf9 \strokec9 <!-- \uc0\u38577 \u34255 \u24335  Iframe \u25552 \u20132 \u25216 \u34899 \u65306 \u20840 \u22495 \u29376 \u24907 \u38928 \u20808 \u23459 \u21578  -->\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 window.submitted = \cf8 \strokec8 false\cf0 \strokec5 ;\cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 iframe\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "hidden_iframe"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "hidden_iframe"\cf0 \strokec5  \cf4 \strokec4 style\cf6 \strokec6 =\cf8 \strokec8 "display:none;"\cf0 \strokec5  \cf4 \strokec4 onload\cf6 \strokec6 =\cf8 \strokec8 "if(window.submitted) \{ showSuccessModal(); \}"\cf6 \strokec6 ></\cf7 \strokec7 iframe\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3             \cf9 \strokec9 <!-- \uc0\u32178 \u38913 \u34920 \u21934  (\u22196 \u26684 \u35201 \u27714 \u65306 \u38928 \u22635 \u20540 \u30342 \u28858 \u31354 \u23383 \u20018 \u65292 \u36664 \u20837 \u26694 \u30342 \u20094 \u28136 \u31354 \u30333 ) -->\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 form\cf0 \strokec5  \cf4 \strokec4 action\cf6 \strokec6 =\cf8 \strokec8 "https://docs.google.com/forms/d/e/1FAIpQLSdi1_n5FsCi7HY7tkvtTPrZSqF9BZQqkhfmgkFM4MF9_uWjpw/formResponse"\cf0 \strokec5  \cb1 \
-\cb3                   \cf4 \strokec4 method\cf6 \strokec6 =\cf8 \strokec8 "POST"\cf0 \strokec5  \cb1 \
-\cb3                   \cf4 \strokec4 target\cf6 \strokec6 =\cf8 \strokec8 "hidden_iframe"\cf0 \strokec5  \cb1 \
-\cb3                   \cf4 \strokec4 onsubmit\cf6 \strokec6 =\cf8 \strokec8 "window.submitted=true;"\cf0 \cb1 \strokec5 \
-\cb3                   \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-6 bg-morandi-cream/50 p-6 sm:p-10 rounded-3xl border border-morandi-sand"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- \uc0\u22995 \u21517  (\u38617 \u35486 \u27161 \u31844 ) -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs sm:text-sm font-medium text-gray-700 mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \uc0\u22995 \u21517  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-warm ml-1"\cf6 \strokec6 >\cf0 \strokec5 NAME\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-red-400"\cf6 \strokec6 >\cf0 \strokec5 *\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "entry.2005620554"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u35531 \u36664 \u20837 \u24744 \u30340 \u22995 \u21517 "\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 ""\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- \uc0\u38651 \u35441  (\u38617 \u35486 \u27161 \u31844 ) -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs sm:text-sm font-medium text-gray-700 mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \uc0\u38651 \u35441  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-warm ml-1"\cf6 \strokec6 >\cf0 \strokec5 PHONE\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-red-400"\cf6 \strokec6 >\cf0 \strokec5 *\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "tel"\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "entry.1166974658"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u35531 \u36664 \u20837 \u24744 \u30340 \u32879 \u32097 \u38651 \u35441 "\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 ""\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- \uc0\u26159 \u21542 \u20986 \u24109  (\u38617 \u35486 \u27161 \u31844  + \u32020 \u20013 \u25991 \u36984 \u38917 ) -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs sm:text-sm font-medium text-gray-700 mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \uc0\u26159 \u21542 \u20986 \u24109  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-warm ml-1"\cf6 \strokec6 >\cf0 \strokec5 ATTENDANCE\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-red-400"\cf6 \strokec6 >\cf0 \strokec5 *\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 select\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "entry.839337160"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 ""\cf0 \strokec5  \cf4 \strokec4 disabled\cf0 \strokec5  \cf4 \strokec4 selected\cf6 \strokec6 >\cf0 \strokec5 \uc0\u35531 \u36984 \u25799 \u24744 \u30340 \u20986 \u24109 \u29376 \u27841 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u30427 \u24773 \u20986 \u24109 "\cf6 \strokec6 >\cf0 \strokec5 \uc0\u30427 \u24773 \u20986 \u24109 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u36986 \u25022 \u28961 \u27861 \u20986 \u24109 "\cf6 \strokec6 >\cf0 \strokec5 \uc0\u36986 \u25022 \u28961 \u27861 \u20986 \u24109 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- \uc0\u21443 \u21152 \u21320 \u23476 \u20154 \u25976  (\u38617 \u35486 \u27161 \u31844  + \u32020 \u20013 \u25991 \u36984 \u38917 ) -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs sm:text-sm font-medium text-gray-700 mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \uc0\u21443 \u21152 \u21320 \u23476 \u20154 \u25976  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-warm ml-1"\cf6 \strokec6 >\cf0 \strokec5 GUESTS COUNT\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-red-400"\cf6 \strokec6 >\cf0 \strokec5 *\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 select\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "guestCountSelect"\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "entry.1065046570"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 onchange\cf6 \strokec6 =\cf8 \strokec8 "handleGuestCountChange(this.value)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 ""\cf0 \strokec5  \cf4 \strokec4 disabled\cf0 \strokec5  \cf4 \strokec4 selected\cf6 \strokec6 >\cf0 \strokec5 \uc0\u35531 \u36984 \u25799 \u21443 \u21152 \u20154 \u25976 \u65288 \u21547 \u26412 \u20154 \u65289 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "0"\cf6 \strokec6 >\cf0 \strokec5 0\uc0\u65288 \u28961 \u27861 \u20986 \u24109 \u65289 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "1"\cf6 \strokec6 >\cf0 \strokec5 1 \uc0\u20154 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "2"\cf6 \strokec6 >\cf0 \strokec5 2 \uc0\u20154 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "3"\cf6 \strokec6 >\cf0 \strokec5 3 \uc0\u20154 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "4"\cf6 \strokec6 >\cf0 \strokec5 4 \uc0\u20154 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "5"\cf6 \strokec6 >\cf0 \strokec5 5 \uc0\u20154 \u25110 \u20197 \u19978 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- \uc0\u26781 \u20214 \u24335 \u21205 \u24907 \u39023 \u31034 \u21312 \u22602 \u65306 \u39154 \u39135 \u38656 \u27714 \u33287 \u20818 \u31461 \u26885  -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "dynamicFields"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-6 hidden border-t border-gray-200/60 pt-6 transition-all duration-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf9 \strokec9 <!-- \uc0\u39154 \u39135 \u38656 \u27714  (\u38617 \u35486 \u27161 \u31844  + \u32020 \u20013 \u25991 \u36984 \u38917 ) -->\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs sm:text-sm font-medium text-gray-700 mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \uc0\u39154 \u39135 \u38656 \u27714  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-warm ml-1"\cf6 \strokec6 >\cf0 \strokec5 DIETARY REQUIREMENTS\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 select\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "entry.1383210453"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 ""\cf0 \strokec5  \cf4 \strokec4 disabled\cf0 \strokec5  \cf4 \strokec4 selected\cf6 \strokec6 >\cf0 \strokec5 \uc0\u35531 \u36984 \u25799 \u39154 \u39135 \u32722 \u24931 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u33911 \u39135 "\cf6 \strokec6 >\cf0 \strokec5 \uc0\u33911 \u39135 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u20840 \u32032 "\cf6 \strokec6 >\cf0 \strokec5 \uc0\u20840 \u32032 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u34507 \u22902 \u32032 "\cf6 \strokec6 >\cf0 \strokec5 \uc0\u34507 \u22902 \u32032 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                     \cf9 \strokec9 <!-- \uc0\u26159 \u21542 \u38656 \u35201 \u20818 \u31461 \u26885  (\u38617 \u35486 \u27161 \u31844  + \u32020 \u20013 \u25991 \u36984 \u38917 ) -->\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs sm:text-sm font-medium text-gray-700 mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \uc0\u26159 \u21542 \u38656 \u35201 \u20818 \u31461 \u26885  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-warm ml-1"\cf6 \strokec6 >\cf0 \strokec5 HIGH CHAIR\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 select\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "entry.1601053155"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 ""\cf0 \strokec5  \cf4 \strokec4 disabled\cf0 \strokec5  \cf4 \strokec4 selected\cf6 \strokec6 >\cf0 \strokec5 \uc0\u35531 \u36984 \u25799 \u20818 \u31461 \u26885 \u38656 \u27714 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u19981 \u38656 \u35201 "\cf6 \strokec6 >\cf0 \strokec5 \uc0\u19981 \u38656 \u35201 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u38656 \u35201  1 \u24373 "\cf6 \strokec6 >\cf0 \strokec5 \uc0\u38656 \u35201  1 \u24373 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u38656 \u35201  2 \u24373 "\cf6 \strokec6 >\cf0 \strokec5 \uc0\u38656 \u35201  2 \u24373 \cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- \uc0\u31069 \u31119 \u30340 \u35441  (\u38617 \u35486 \u27161 \u31844 ) -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs sm:text-sm font-medium text-gray-700 mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \uc0\u32102 \u26032 \u20154 \u30340 \u31069 \u31119  \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-morandi-warm ml-1"\cf6 \strokec6 >\cf0 \strokec5 BLESSINGS\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 textarea\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "entry.830606776"\cf0 \strokec5  \cf4 \strokec4 rows\cf6 \strokec6 =\cf8 \strokec8 "3"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u30041 \u19979 \u24744 \u23565  YoungHo \u33287  ChiaHui \u30340 \u31069 \u31119 \u21543 ..."\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 ""\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition"\cf6 \strokec6 ></\cf7 \strokec7 textarea\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3                 \cf9 \strokec9 <!-- \uc0\u25552 \u20132 \u25353 \u37397  -->\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "pt-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "submit"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full bg-morandi-warm hover:bg-morandi-warmDark text-white font-medium py-3.5 px-6 rounded-xl shadow-lg shadow-morandi-warm/20 transition duration-300 tracking-wider text-sm flex items-center justify-center space-x-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 \uc0\u30906 \u35469 \u36865 \u20986 \u22238 \u20989 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-regular fa-paper-plane"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                     \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 form\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- \uc0\u38913 \u23614  Footer -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 footer\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-12 bg-morandi-sand/30 border-t border-morandi-sand text-center space-y-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xl text-morandi-warm font-semibold tracking-widest"\cf6 \strokec6 >\cf0 \strokec5 YoungHo & ChiaHui\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-english text-xs text-gray-400 tracking-wider italic"\cf6 \strokec6 >\cf0 \strokec5 We love because God first loved us.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-[11px] text-gray-400 font-light pt-4"\cf6 \strokec6 >\cf0 \strokec5 \'a9 2027 All Rights Reserved.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 footer\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf9 \strokec9 <!-- \uc0\u33258 \u35330 \u25104 \u21151 \u24392 \u20986 \u35222 \u31383  (\u38750 \u21407 \u29983  alert) -->\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "successModal"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300 px-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white rounded-3xl p-8 max-w-sm w-full text-center space-y-4 shadow-2xl transform scale-95 transition-transform duration-300"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modalCard"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-16 h-16 bg-morandi-sageLight text-morandi-sage rounded-full flex items-center justify-center mx-auto text-2xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-heart"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-medium text-gray-800"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u25552 \u20132 \u25104 \u21151 \u65281 \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs sm:text-sm text-gray-600 leading-relaxed"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \uc0\u24863 \u35613 \u24744 \u30340 \u22238 \u35206 \u65292 \u25105 \u20497 \u24050 \u25910 \u21040 \u24744 \u30340 \u20986 \u24109 \u36039 \u35338 \u65292 \u26399 \u24453 \u22312  2027 \u24180  5 \u26376  22 \u26085 \u33287 \u24744 \u28331 \u39336 \u30456 \u35211 \u65281 \cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "closeSuccessModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full bg-morandi-warm hover:bg-morandi-warmDark text-white py-2.5 rounded-xl text-sm font-medium transition duration-200"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3                 \uc0\u38364 \u38281 \u35222 \u31383 \cb1 \
-\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\
-\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cb3         \cf9 \strokec9 // 1. \uc0\u20498 \u25976 \u35336 \u26178 \u37007 \u36655  (\u30446 \u27161 \u26178 \u38291 \u65306 2027\u24180 5\u26376 22\u26085  11:30 \u20837 \u24109 )\cf0 \cb1 \strokec5 \
-\cb3         \cf8 \strokec8 const\cf0 \strokec5  targetDate = \cf8 \strokec8 new\cf0 \strokec5  \cf13 \strokec13 Date\cf0 \strokec5 (\cf10 \strokec10 "May 22, 2027 11:30:00"\cf0 \strokec5 ).getTime();\cb1 \
-\
-\cb3         \cf8 \strokec8 function\cf0 \strokec5  updateCountdown() \{\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  now = \cf8 \strokec8 new\cf0 \strokec5  \cf13 \strokec13 Date\cf0 \strokec5 ().getTime();\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  difference = targetDate - now;\cb1 \
-\
-\cb3             \cf8 \strokec8 if\cf0 \strokec5  (difference > \cf12 \strokec12 0\cf0 \strokec5 ) \{\cb1 \
-\cb3                 \cf8 \strokec8 const\cf0 \strokec5  days = \cf13 \strokec13 Math\cf0 \strokec5 .floor(difference / (\cf12 \strokec12 1000\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5  * \cf12 \strokec12 24\cf0 \strokec5 ));\cb1 \
-\cb3                 \cf8 \strokec8 const\cf0 \strokec5  hours = \cf13 \strokec13 Math\cf0 \strokec5 .floor((difference % (\cf12 \strokec12 1000\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5  * \cf12 \strokec12 24\cf0 \strokec5 )) / (\cf12 \strokec12 1000\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5 ));\cb1 \
-\cb3                 \cf8 \strokec8 const\cf0 \strokec5  minutes = \cf13 \strokec13 Math\cf0 \strokec5 .floor((difference % (\cf12 \strokec12 1000\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5 )) / (\cf12 \strokec12 1000\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5 ));\cb1 \
-\cb3                 \cf8 \strokec8 const\cf0 \strokec5  seconds = \cf13 \strokec13 Math\cf0 \strokec5 .floor((difference % (\cf12 \strokec12 1000\cf0 \strokec5  * \cf12 \strokec12 60\cf0 \strokec5 )) / \cf12 \strokec12 1000\cf0 \strokec5 );\cb1 \
-\
-\cb3                 document.getElementById(\cf10 \strokec10 "days"\cf0 \strokec5 ).innerText = days < \cf12 \strokec12 10\cf0 \strokec5  ? \cf10 \strokec10 '0'\cf0 \strokec5  + days : days;\cb1 \
-\cb3                 document.getElementById(\cf10 \strokec10 "hours"\cf0 \strokec5 ).innerText = hours < \cf12 \strokec12 10\cf0 \strokec5  ? \cf10 \strokec10 '0'\cf0 \strokec5  + hours : hours;\cb1 \
-\cb3                 document.getElementById(\cf10 \strokec10 "minutes"\cf0 \strokec5 ).innerText = minutes < \cf12 \strokec12 10\cf0 \strokec5  ? \cf10 \strokec10 '0'\cf0 \strokec5  + minutes : minutes;\cb1 \
-\cb3                 document.getElementById(\cf10 \strokec10 "seconds"\cf0 \strokec5 ).innerText = seconds < \cf12 \strokec12 10\cf0 \strokec5  ? \cf10 \strokec10 '0'\cf0 \strokec5  + seconds : seconds;\cb1 \
-\cb3             \} \cf8 \strokec8 else\cf0 \strokec5  \{\cb1 \
-\cb3                 document.getElementById(\cf10 \strokec10 "days"\cf0 \strokec5 ).innerText = \cf10 \strokec10 "00"\cf0 \strokec5 ;\cb1 \
-\cb3                 document.getElementById(\cf10 \strokec10 "hours"\cf0 \strokec5 ).innerText = \cf10 \strokec10 "00"\cf0 \strokec5 ;\cb1 \
-\cb3                 document.getElementById(\cf10 \strokec10 "minutes"\cf0 \strokec5 ).innerText = \cf10 \strokec10 "00"\cf0 \strokec5 ;\cb1 \
-\cb3                 document.getElementById(\cf10 \strokec10 "seconds"\cf0 \strokec5 ).innerText = \cf10 \strokec10 "00"\cf0 \strokec5 ;\cb1 \
-\cb3             \}\cb1 \
-\cb3         \}\cb1 \
-\cb3         setInterval(updateCountdown, \cf12 \strokec12 1000\cf0 \strokec5 );\cb1 \
-\cb3         updateCountdown();\cb1 \
-\
-\cb3         \cf9 \strokec9 // 2. \uc0\u25722 \u30090 \u38754 \u26495  Accordion \u37007 \u36655 \cf0 \cb1 \strokec5 \
-\cb3         \cf8 \strokec8 function\cf0 \strokec5  toggleAccordion(id) \{\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  content = document.getElementById(id);\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  arrow = document.getElementById(\cf10 \strokec10 'accordion-arrow'\cf0 \strokec5 );\cb1 \
-\
-\cb3             \cf8 \strokec8 if\cf0 \strokec5  (content.style.maxHeight && content.style.maxHeight !== \cf10 \strokec10 "0px"\cf0 \strokec5 ) \{\cb1 \
-\cb3                 content.style.maxHeight = \cf10 \strokec10 "0px"\cf0 \strokec5 ;\cb1 \
-\cb3                 content.classList.remove(\cf10 \strokec10 'open'\cf0 \strokec5 );\cb1 \
-\cb3                 arrow.style.transform = \cf10 \strokec10 "rotate(0deg)"\cf0 \strokec5 ;\cb1 \
-\cb3             \} \cf8 \strokec8 else\cf0 \strokec5  \{\cb1 \
-\cb3                 content.style.maxHeight = content.scrollHeight + \cf10 \strokec10 "px"\cf0 \strokec5 ;\cb1 \
-\cb3                 content.classList.add(\cf10 \strokec10 'open'\cf0 \strokec5 );\cb1 \
-\cb3                 arrow.style.transform = \cf10 \strokec10 "rotate(180deg)"\cf0 \strokec5 ;\cb1 \
-\cb3             \}\cb1 \
-\cb3         \}\cb1 \
-\
-\cb3         \cf9 \strokec9 // 3. \uc0\u26234 \u33021 \u34920 \u21934 \u37007 \u36655 \u65306 \u20154 \u25976 \u22823 \u26044 0\u25165 \u39023 \u31034 \u39154 \u39135 \u38656 \u27714 \u33287 \u20818 \u31461 \u26885 \cf0 \cb1 \strokec5 \
-\cb3         \cf8 \strokec8 function\cf0 \strokec5  handleGuestCountChange(val) \{\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  dynamicFields = document.getElementById(\cf10 \strokec10 'dynamicFields'\cf0 \strokec5 );\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  count = parseInt(val, \cf12 \strokec12 10\cf0 \strokec5 );\cb1 \
-\
-\cb3             \cf8 \strokec8 if\cf0 \strokec5  (count > \cf12 \strokec12 0\cf0 \strokec5 ) \{\cb1 \
-\cb3                 dynamicFields.classList.remove(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
-\cb3             \} \cf8 \strokec8 else\cf0 \strokec5  \{\cb1 \
-\cb3                 dynamicFields.classList.add(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
-\cb3             \}\cb1 \
-\cb3         \}\cb1 \
-\
-\cb3         \cf9 \strokec9 // 4. \uc0\u33258 \u35330  Modal \u26367 \u20195  alert \u35222 \u31383 \cf0 \cb1 \strokec5 \
-\cb3         \cf8 \strokec8 function\cf0 \strokec5  showSuccessModal() \{\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  modal = document.getElementById(\cf10 \strokec10 'successModal'\cf0 \strokec5 );\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  card = document.getElementById(\cf10 \strokec10 'modalCard'\cf0 \strokec5 );\cb1 \
-\cb3             modal.classList.remove(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
-\cb3             setTimeout(() => \{\cb1 \
-\cb3                 modal.classList.remove(\cf10 \strokec10 'opacity-0'\cf0 \strokec5 );\cb1 \
-\cb3                 card.classList.remove(\cf10 \strokec10 'scale-95'\cf0 \strokec5 );\cb1 \
-\cb3                 card.classList.add(\cf10 \strokec10 'scale-100'\cf0 \strokec5 );\cb1 \
-\cb3             \}, \cf12 \strokec12 10\cf0 \strokec5 );\cb1 \
-\cb3         \}\cb1 \
-\
-\cb3         \cf8 \strokec8 function\cf0 \strokec5  closeSuccessModal() \{\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  modal = document.getElementById(\cf10 \strokec10 'successModal'\cf0 \strokec5 );\cb1 \
-\cb3             \cf8 \strokec8 const\cf0 \strokec5  card = document.getElementById(\cf10 \strokec10 'modalCard'\cf0 \strokec5 );\cb1 \
-\cb3             modal.classList.add(\cf10 \strokec10 'opacity-0'\cf0 \strokec5 );\cb1 \
-\cb3             card.classList.remove(\cf10 \strokec10 'scale-100'\cf0 \strokec5 );\cb1 \
-\cb3             card.classList.add(\cf10 \strokec10 'scale-95'\cf0 \strokec5 );\cb1 \
-\cb3             setTimeout(() => \{\cb1 \
-\cb3                 modal.classList.add(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
-\cb3                 window.submitted = \cf8 \strokec8 false\cf0 \strokec5 ;\cb1 \
-\cb3             \}, \cf12 \strokec12 300\cf0 \strokec5 );\cb1 \
-\cb3         \}\cb1 \
-\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\pard\pardeftab720\partightenfactor0
-\cf6 \cb3 \strokec6 </\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-\cf6 \cb3 \strokec6 </\cf7 \strokec7 html\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
-}
+    <!-- 固定毛玻璃導覽列 -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Brand Logo -->
+                <a href="#" class="font-english font-bold text-xl sm:text-2xl text-morandi-warm tracking-widest no-wrap">
+                    Y & C
+                </a>
+                <!-- Nav Links -->
+                <div class="flex space-x-4 sm:space-x-8 text-xs sm:text-sm font-medium tracking-widest">
+                    <a href="#about" class="text-gray-700 hover:text-morandi-warm transition duration-200">關於我們</a>
+                    <a href="#details" class="text-gray-700 hover:text-morandi-warm transition duration-200">婚禮詳情</a>
+                    <a href="#attend-form" class="text-gray-700 hover:text-morandi-warm transition duration-200">出席回函</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首頁全螢幕封面背景 -->
+    <section class="relative h-screen flex items-end sm:items-center justify-center overflow-hidden pb-16 sm:pb-0">
+        <!-- Background Image with Soft Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://i.postimg.cc/X7zc76xq/IMG-9121.jpg" alt="YoungHo & ChiaHui" class="w-full h-full object-cover object-top scale-105 transform transition duration-1000">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-black/30"></div>
+        </div>
+
+        <!-- Hero Content (位置經調整，避免遮擋人臉) -->
+        <div class="relative z-10 text-center text-white px-4 max-w-3xl mx-auto space-y-3">
+            <p class="font-english text-lg sm:text-2xl md:text-3xl tracking-widest uppercase italic opacity-90 font-light">
+                Our Wedding Day
+            </p>
+            <h1 class="font-english text-3xl sm:text-5xl md:text-6xl font-semibold tracking-wider my-1">
+                YoungHo <span class="font-light italic text-morandi-warm">&</span> ChiaHui
+            </h1>
+            <div class="w-12 h-0.5 bg-morandi-warm mx-auto my-2"></div>
+            <p class="font-english text-base sm:text-xl md:text-2xl tracking-wider font-light italic opacity-95">
+                "We love because God first loved us."
+            </p>
+            <p class="font-noto text-xs sm:text-sm tracking-widest pt-1 opacity-80 no-wrap">
+                2027 . 05 . 22 六 | 午宴 11:30 入席
+            </p>
+            <!-- 觀看婚禮資訊按鈕 -->
+            <div class="pt-3">
+                <a href="#details" class="inline-block bg-white/20 hover:bg-white/30 text-white backdrop-blur-md border border-white/40 text-xs sm:text-sm px-6 py-2.5 rounded-full tracking-widest transition duration-300 transform hover:scale-105 shadow-lg">
+                    觀看婚禮資訊
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <div class="absolute bottom-4 z-10 left-1/2 transform -translate-x-1/2 text-white/70 animate-bounce">
+            <i class="fa-solid fa-chevron-down text-base sm:text-lg"></i>
+        </div>
+    </section>
+
+    <!-- 藝術倒數計時器 (白色微光卡片) -->
+    <section class="py-16 sm:py-20 px-4 bg-morandi-sand/40">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-english text-2xl sm:text-3xl text-morandi-warm uppercase tracking-widest mb-2">Countdown</h2>
+            <p class="text-xs sm:text-sm text-gray-500 tracking-widest mb-10">倒數陪伴我們迎向幸福時刻</p>
+            
+            <!-- Countdown Grid -->
+            <div class="grid grid-cols-4 gap-2 sm:gap-6 max-w-2xl mx-auto" id="countdown">
+                <!-- Days -->
+                <div class="white-shimmer-card rounded-2xl p-3 sm:p-6 flex flex-col items-center justify-center relative">
+                    <span id="days" class="font-english text-2xl sm:text-5xl font-semibold text-morandi-warm tracking-tight">00</span>
+                    <span class="font-english text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mt-1">Days</span>
+                    <div class="hidden sm:block absolute right-0 top-1/2 transform -translate-y-1/2 w-px h-8 bg-gray-200"></div>
+                </div>
+                <!-- Hours -->
+                <div class="white-shimmer-card rounded-2xl p-3 sm:p-6 flex flex-col items-center justify-center relative">
+                    <span id="hours" class="font-english text-2xl sm:text-5xl font-semibold text-morandi-warm tracking-tight">00</span>
+                    <span class="font-english text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mt-1">Hours</span>
+                    <div class="hidden sm:block absolute right-0 top-1/2 transform -translate-y-1/2 w-px h-8 bg-gray-200"></div>
+                </div>
+                <!-- Minutes -->
+                <div class="white-shimmer-card rounded-2xl p-3 sm:p-6 flex flex-col items-center justify-center relative">
+                    <span id="minutes" class="font-english text-2xl sm:text-5xl font-semibold text-morandi-warm tracking-tight">00</span>
+                    <span class="font-english text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mt-1">Mins</span>
+                    <div class="hidden sm:block absolute right-0 top-1/2 transform -translate-y-1/2 w-px h-8 bg-gray-200"></div>
+                </div>
+                <!-- Seconds -->
+                <div class="white-shimmer-card rounded-2xl p-3 sm:p-6 flex flex-col items-center justify-center">
+                    <span id="seconds" class="font-english text-2xl sm:text-5xl font-semibold text-morandi-warm tracking-tight">00</span>
+                    <span class="font-english text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mt-1">Secs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 關於我們 -->
+    <section id="about" class="py-20 px-4">
+        <div class="max-w-3xl mx-auto text-center space-y-6">
+            <div class="inline-block px-3 py-1 bg-morandi-sageLight text-morandi-sage text-xs tracking-widest rounded-full uppercase">About Us</div>
+            <h2 class="font-english text-3xl sm:text-4xl text-morandi-warm tracking-wider">YoungHo & ChiaHui</h2>
+            <div class="w-12 h-0.5 bg-morandi-warm/40 mx-auto"></div>
+            <p class="text-sm sm:text-base text-gray-600 leading-relaxed font-light px-4">
+                因為愛，讓我們遇見了彼此💗<br>
+                因為神的愛，讓我們懂得如何用心去呵護這份感情。<br>
+                誠摯邀請您來到我們的婚禮與我們一同分享喜悅與神的恩典，<br>
+                一起來見證我們的幸福時刻！
+            </p>
+        </div>
+    </section>
+
+    <!-- 婚禮詳情 (垂直 V-Card 設計) -->
+    <section id="details" class="py-16 px-4 bg-morandi-sand/30">
+        <div class="max-w-2xl mx-auto space-y-8">
+            <div class="text-center space-y-2">
+                <span class="font-english text-xs text-morandi-sage tracking-widest uppercase">Wedding Details</span>
+                <h2 class="text-2xl sm:text-3xl text-morandi-charcoal font-medium tracking-wide">婚禮資訊與交通指南</h2>
+            </div>
+
+            <!-- V-Card 資訊主體 -->
+            <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-white/60 space-y-8">
+                <!-- 時間資訊 -->
+                <div class="flex items-start space-x-4 border-b border-gray-100 pb-6">
+                    <div class="w-12 h-12 rounded-2xl bg-morandi-sageLight flex items-center justify-center text-morandi-sage shrink-0">
+                        <i class="fa-regular fa-clock text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-medium text-morandi-warm mb-1">婚禮時間 Time</h3>
+                        <p class="text-gray-800 text-sm sm:text-base font-semibold no-wrap">2027 年 5 月 22 日 星期六【午宴】</p>
+                        <p class="text-gray-600 text-xs sm:text-sm mt-1 no-wrap">11:30 入席 | 12:00 準時開席</p>
+                    </div>
+                </div>
+
+                <!-- 地點資訊 -->
+                <div class="flex items-start space-x-4">
+                    <div class="w-12 h-12 rounded-2xl bg-morandi-sageLight flex items-center justify-center text-morandi-sage shrink-0">
+                        <i class="fa-solid fa-location-dot text-xl"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-lg font-medium text-morandi-warm mb-1">婚禮地點 Location</h3>
+                        <p class="text-gray-800 text-sm sm:text-base font-semibold no-wrap">花蓮永豐活海鮮餐廳</p>
+                        <p class="text-gray-500 text-xs sm:text-sm mt-1 no-wrap"> 973花蓮縣吉安鄉勝安村中原路一段271號</p>
+                        <div class="mt-3">
+                            <a href="https://maps.google.com/?q=花蓮永豐海鮮餐廳" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-xs text-morandi-warm hover:text-morandi-warmDark underline font-medium space-x-1 no-wrap">
+                                <span>開啟 Google Map 導航</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 交通指引 (摺疊式面板 Accordion) -->
+            <div class="bg-white rounded-3xl shadow-lg border border-white/60 overflow-hidden">
+                <button onclick="toggleAccordion('traffic-accordion')" class="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-gray-50/80 transition duration-200">
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-bus text-morandi-sage text-lg"></i>
+                        <span class="font-medium text-gray-800 text-sm sm:text-base no-wrap">詳細交通指引資訊 (點擊展開)</span>
+                    </div>
+                    <i id="accordion-arrow" class="fa-solid fa-chevron-down text-gray-400 transition-transform duration-300"></i>
+                </button>
+
+                <div id="traffic-accordion" class="accordion-content px-6 border-t border-gray-100 bg-gray-50/50">
+                    <div class="py-6 space-y-4 text-xs sm:text-sm text-gray-600 leading-relaxed">
+                        <div>
+                            <h4 class="font-semibold text-morandi-warm mb-1 flex items-center space-x-2">
+                                <i class="fa-solid fa-train"></i>
+                                <span class="no-wrap">【台鐵火車】</span>
+                            </h4>
+                            <p class="pl-5">搭乘台鐵至 <span class="no-wrap font-medium text-gray-800">花蓮火車總站</span> 下車，出站後轉乘計程車約 8-10 分鐘即可抵達 <span class="no-wrap font-medium text-gray-800">花蓮永豐活海鮮餐廳</span>。</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-morandi-warm mb-1 flex items-center space-x-2">
+                                <i class="fa-solid fa-car"></i>
+                                <span class="no-wrap">【自行開車】</span>
+                            </h4>
+                            <p class="pl-5">導航設定至 <span class="no-wrap font-medium text-gray-800"> 973花蓮縣吉安鄉勝安村中原路一段271號</span>。餐廳旁或附近設有相關停車空間。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 出席回函表單區塊 -->
+    <section id="attend-form" class="py-20 px-4 bg-white">
+        <div class="max-w-2xl mx-auto">
+            <div class="text-center space-y-2 mb-10">
+                <span class="font-english text-xs text-morandi-sage tracking-widest uppercase">Response Form</span>
+                <h2 class="text-2xl sm:text-3xl text-morandi-charcoal font-medium tracking-wide">出席回函</h2>
+                <p class="text-xs sm:text-sm text-gray-500 pt-1">為了讓我們做好最完善的準備，請於 2027 年 3 月 30 日前協助填寫</p>
+            </div>
+
+            <!-- 隱藏式 Iframe 提交技術：全域狀態預先宣告 -->
+            <script>
+                window.submitted = false;
+            </script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(window.submitted) { showSuccessModal(); }"></iframe>
+
+            <!-- 網頁表單 (嚴格要求：預填值皆為空字串，輸入框皆乾淨空白) -->
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdi1_n5FsCi7HY7tkvtTPrZSqF9BZQqkhfmgkFM4MF9_uWjpw/formResponse" 
+                  method="POST" 
+                  target="hidden_iframe" 
+                  onsubmit="window.submitted=true;"
+                  class="space-y-6 bg-morandi-cream/50 p-6 sm:p-10 rounded-3xl border border-morandi-sand">
+
+                <!-- 姓名 (雙語標籤) -->
+                <div>
+                    <label class="block text-xs sm:text-sm font-medium text-gray-700 mb-2">
+                        姓名 <span class="font-english text-xs text-morandi-warm ml-1">NAME</span> <span class="text-red-400">*</span>
+                    </label>
+                    <input type="text" name="entry.2005620554" required placeholder="請輸入您的姓名" value="" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition">
+                </div>
+
+                <!-- 電話 (雙語標籤) -->
+                <div>
+                    <label class="block text-xs sm:text-sm font-medium text-gray-700 mb-2">
+                        電話 <span class="font-english text-xs text-morandi-warm ml-1">PHONE</span> <span class="text-red-400">*</span>
+                    </label>
+                    <input type="tel" name="entry.1166974658" required placeholder="請輸入您的聯絡電話" value="" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition">
+                </div>
+
+                <!-- 是否出席 (雙語標籤 + 純中文選項) -->
+                <div>
+                    <label class="block text-xs sm:text-sm font-medium text-gray-700 mb-2">
+                        是否出席 <span class="font-english text-xs text-morandi-warm ml-1">ATTENDANCE</span> <span class="text-red-400">*</span>
+                    </label>
+                    <select name="entry.839337160" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition">
+                        <option value="" disabled selected>請選擇您的出席狀況</option>
+                        <option value="盛情出席">盛情出席</option>
+                        <option value="遺憾無法出席">遺憾無法出席</option>
+                    </select>
+                </div>
+
+                <!-- 參加午宴人數 (雙語標籤 + 純中文選項) -->
+                <div>
+                    <label class="block text-xs sm:text-sm font-medium text-gray-700 mb-2">
+                        參加午宴人數 <span class="font-english text-xs text-morandi-warm ml-1">GUESTS COUNT</span> <span class="text-red-400">*</span>
+                    </label>
+                    <select id="guestCountSelect" name="entry.1065046570" required onchange="handleGuestCountChange(this.value)" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition">
+                        <option value="" disabled selected>請選擇參加人數（含本人）</option>
+                        <option value="0">0（無法出席）</option>
+                        <option value="1">1 人</option>
+                        <option value="2">2 人</option>
+                        <option value="3">3 人</option>
+                        <option value="4">4 人</option>
+                        <option value="5">5 人或以上</option>
+                    </select>
+                </div>
+
+                <!-- 條件式動態顯示區塊：飲食需求與兒童椅 -->
+                <div id="dynamicFields" class="space-y-6 hidden border-t border-gray-200/60 pt-6 transition-all duration-300">
+                    <!-- 飲食需求 (雙語標籤 + 純中文選項) -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-medium text-gray-700 mb-2">
+                            飲食需求 <span class="font-english text-xs text-morandi-warm ml-1">DIETARY REQUIREMENTS</span>
+                        </label>
+                        <select name="entry.1383210453" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition">
+                            <option value="" disabled selected>請選擇飲食習慣</option>
+                            <option value="葷食">葷食</option>
+                            <option value="全素">全素</option>
+                            <option value="蛋奶素">蛋奶素</option>
+                        </select>
+                    </div>
+
+                    <!-- 是否需要兒童椅 (雙語標籤 + 純中文選項) -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-medium text-gray-700 mb-2">
+                            是否需要兒童椅 <span class="font-english text-xs text-morandi-warm ml-1">HIGH CHAIR</span>
+                        </label>
+                        <select name="entry.1601053155" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition">
+                            <option value="" disabled selected>請選擇兒童椅需求</option>
+                            <option value="不需要">不需要</option>
+                            <option value="需要 1 張">需要 1 張</option>
+                            <option value="需要 2 張">需要 2 張</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 祝福的話 (雙語標籤) -->
+                <div>
+                    <label class="block text-xs sm:text-sm font-medium text-gray-700 mb-2">
+                        給新人的祝福 <span class="font-english text-xs text-morandi-warm ml-1">BLESSINGS</span>
+                    </label>
+                    <textarea name="entry.830606776" rows="3" placeholder="留下您對 YoungHo 與 ChiaHui 的祝福吧..." value="" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-morandi-warm/50 focus:border-morandi-warm bg-white text-sm transition"></textarea>
+                </div>
+
+                <!-- 提交按鈕 -->
+                <div class="pt-4">
+                    <button type="submit" class="w-full bg-morandi-warm hover:bg-morandi-warmDark text-white font-medium py-3.5 px-6 rounded-xl shadow-lg shadow-morandi-warm/20 transition duration-300 tracking-wider text-sm flex items-center justify-center space-x-2">
+                        <span>確認送出回函</span>
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- 頁尾 Footer -->
+    <footer class="py-12 bg-morandi-sand/30 border-t border-morandi-sand text-center space-y-3">
+        <h3 class="font-english text-xl text-morandi-warm font-semibold tracking-widest">YoungHo & ChiaHui</h3>
+        <p class="font-english text-xs text-gray-400 tracking-wider italic">We love because God first loved us.</p>
+        <p class="text-[11px] text-gray-400 font-light pt-4">© 2027 All Rights Reserved.</p>
+    </footer>
+
+    <!-- 自訂成功彈出視窗 (非原生 alert) -->
+    <div id="successModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300 px-4">
+        <div class="bg-white rounded-3xl p-8 max-w-sm w-full text-center space-y-4 shadow-2xl transform scale-95 transition-transform duration-300" id="modalCard">
+            <div class="w-16 h-16 bg-morandi-sageLight text-morandi-sage rounded-full flex items-center justify-center mx-auto text-2xl">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <h3 class="text-xl font-medium text-gray-800">提交成功！</h3>
+            <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                感謝您的回覆，我們已收到您的出席資訊，期待在 2027 年 5 月 22 日與您溫馨相見！
+            </p>
+            <button onclick="closeSuccessModal()" class="w-full bg-morandi-warm hover:bg-morandi-warmDark text-white py-2.5 rounded-xl text-sm font-medium transition duration-200">
+                關閉視窗
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // 1. 倒數計時邏輯 (目標時間：2027年5月22日 11:30 入席)
+        const targetDate = new Date("May 22, 2027 11:30:00").getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const difference = targetDate - now;
+
+            if (difference > 0) {
+                const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+                document.getElementById("days").innerText = days < 10 ? '0' + days : days;
+                document.getElementById("hours").innerText = hours < 10 ? '0' + hours : hours;
+                document.getElementById("minutes").innerText = minutes < 10 ? '0' + minutes : minutes;
+                document.getElementById("seconds").innerText = seconds < 10 ? '0' + seconds : seconds;
+            } else {
+                document.getElementById("days").innerText = "00";
+                document.getElementById("hours").innerText = "00";
+                document.getElementById("minutes").innerText = "00";
+                document.getElementById("seconds").innerText = "00";
+            }
+        }
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // 2. 摺疊面板 Accordion 邏輯
+        function toggleAccordion(id) {
+            const content = document.getElementById(id);
+            const arrow = document.getElementById('accordion-arrow');
+
+            if (content.style.maxHeight && content.style.maxHeight !== "0px") {
+                content.style.maxHeight = "0px";
+                content.classList.remove('open');
+                arrow.style.transform = "rotate(0deg)";
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+                content.classList.add('open');
+                arrow.style.transform = "rotate(180deg)";
+            }
+        }
+
+        // 3. 智能表單邏輯：人數大於0才顯示飲食需求與兒童椅
+        function handleGuestCountChange(val) {
+            const dynamicFields = document.getElementById('dynamicFields');
+            const count = parseInt(val, 10);
+
+            if (count > 0) {
+                dynamicFields.classList.remove('hidden');
+            } else {
+                dynamicFields.classList.add('hidden');
+            }
+        }
+
+        // 4. 自訂 Modal 替代 alert 視窗
+        function showSuccessModal() {
+            const modal = document.getElementById('successModal');
+            const card = document.getElementById('modalCard');
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                card.classList.remove('scale-95');
+                card.classList.add('scale-100');
+            }, 10);
+        }
+
+        function closeSuccessModal() {
+            const modal = document.getElementById('successModal');
+            const card = document.getElementById('modalCard');
+            modal.classList.add('opacity-0');
+            card.classList.remove('scale-100');
+            card.classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                window.submitted = false;
+            }, 300);
+        }
+    </script>
+</body>
+</html>
